@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>25AH</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header id="header">
+    <nav class="nav-container">
+      <div class="nav-left">
+        <a href="#" class="nav-item">
+          <span class="dot"></span>
+          <span>The Index</span>
+        </a>
+        <a href="#" class="nav-item">
+          <span class="dot"></span>
+          <span>Projects</span>
+        </a>
+      </div>
+      <div class="nav-right">
+        <a href="#" class="nav-item">
+          <span class="dot"></span>
+          <span>Information</span>
+        </a>
+        <a href="#" class="nav-item">
+          <span class="dot"></span>
+          <span>Submit</span>
+        </a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Physics proxy to drive native scrolling -->
+  <div class="scroll-proxy"></div>
+
+  <!-- Virtual scroller container -->
+  <div class="virtual-scroll">
+    <!-- Hero Section (Top layer) -->
+    <section class="hero-section">
+      <video class="hero-video" autoplay loop muted playsinline>
+        <source src="https://res.cloudinary.com/theindex/video/upload/25AH_Splash-Desktop_3000x2000_evcz5m.mp4" type="video/mp4">
+      </video>
+      <div class="hero-content">
+        <h1 class="hero-title reveal-up">25AH</h1>
+      </div>
+    </section>
+
+    <!-- Main Content (Bottom layer) -->
+    <main class="main-content">
+      <section class="content-section">
+        <div class="intro-container">
+          <h2 class="sub-title">25AH</h2>
+          <div class="intro-prose font-serif">
+            25AH is a Stockholm-based multidisciplinary brand and design agency that uses commercial strategy for creative and unconventional design and identity solutions.
+          </div>
+          <div class="article-content font-serif">
+            <p>We believe in connecting people emotionally with your brand. With our creative process, based on research and strategic thinking, we visualize great ideas, develop effective communication and consumer engaging solutions.</p>
+          </div>
+
+          <!-- Unified Details -->
+          <div class="details-list">
+            <div class="detail-item"><div class="detail-label">Founded</div><div>2008</div></div>
+            <div class="detail-item"><div class="detail-label">Size</div><div>10</div></div>
+            <div class="detail-item"><div class="detail-label">City</div><div>Stockholm</div></div>
+            <div class="detail-item"><div class="detail-label">Country</div><div>Sweden</div></div>
+            <div class="detail-item">
+              <div class="detail-label">Category</div>
+              <div class="flex-col"><span>Branding</span><span>Graphic Design</span></div>
+            </div>
+            <div class="detail-item">
+              <div class="detail-label">Social</div>
+              <div class="flex-col">
+                <a href="#" class="hover-link">Website</a>
+                <a href="#" class="hover-link">Instagram</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Selected Work -->
+        <div class="selected-work-label">Selected work</div>
+        <div class="works-container">
+          <div class="work-item aspect-16-9">
+            <div class="work-badge">Hotel Frantz</div>
+            <video class="work-media js-lazy-media" loop muted playsinline>
+              <source src="https://res.cloudinary.com/theindex/video/upload/videos/25AH_Franz_1920x1080_plf3k0.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="work-item aspect-16-9">
+            <div class="work-badge">Italiano</div>
+            <video class="work-media js-lazy-media" loop muted playsinline>
+              <source src="https://res.cloudinary.com/theindex/video/upload/videos/25AH_Italiano_1920x1080_lzjbvo.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="work-item aspect-3-2">
+            <div class="work-badge">Mannheimer Swartling</div>
+            <img class="work-media" src="https://cdn.sanity.io/images/23ln4rxw/production/004408f22e2ff124e75a2bc17e2517619b3e1738-3000x2000.jpg" alt="Mannheimer Swartling">
+          </div>
+        </div>
+      </section>
+
+      <!-- Explore More -->
+      <section class="explore-section reveal-up">
+        <div class="explore-header">
+          <h2 class="explore-title font-serif">Explore more</h2>
+        </div>
+        <div class="explore-container">
+          <div class="explore-controls">
+            <button class="control-btn active"><span class="dot-active"></span>Latest</button>
+            <button class="control-btn">Shuffle</button>
+          </div>
+          <div class="explore-grid">
+            <a href="#" class="explore-card group">
+              <div class="explore-image-wrapper">
+                 <img src="https://cdn.sanity.io/images/23ln4rxw/production/9a29e2379d2c128bc8ad550b607dd1dfc2faf8fc-1440x960.png" class="explore-image" alt="Eastern Rodeo">
+              </div>
+              <div class="explore-badge">Eastern Rodeo</div>
+            </a>
+            <a href="#" class="explore-card group">
+              <div class="explore-image-wrapper">
+                 <video class="explore-image js-lazy-media" loop muted playsinline>
+                    <source src="https://res.cloudinary.com/theindex/video/upload/STUDIO_WAN_Desktop_Splash_Update_nrlddk.mp4" type="video/mp4">
+                 </video>
+              </div>
+              <div class="explore-badge">STUDIO WAN</div>
+            </a>
+            <a href="#" class="explore-card group">
+              <div class="explore-image-wrapper">
+                 <video class="explore-image js-lazy-media" loop muted playsinline>
+                    <source src="https://res.cloudinary.com/theindex/video/upload/1-republique-studio-desktop_kyqkdk.mp4" type="video/mp4">
+                 </video>
+              </div>
+              <div class="explore-badge">République Studio</div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <div class="footer-logo">
+          <svg viewBox="0 0 1149 169" xmlns="http://www.w3.org/2000/svg" class="w-full h-full"><path d="M52.2513 24.8402H0.483768V0.465339H133.733V24.8402H81.9654V169H52.2513V24.8402ZM149.461 0.465339H178.71V69.6435H256.013V0.465339H285.263V169H256.013V94.0183H178.71V169H149.461V0.465339ZM316.883 0.465339H426.222V24.8402H346.365V71.0363H421.579V95.4112H346.365V144.393H429.472V169H316.883V0.465339ZM494.852 0.465339H524.102V169H494.852V0.465339ZM555.953 0.465339H596.81C599.595 5.80459 604.935 15.7867 610.738 26.9295C613.756 32.733 616.774 38.5365 619.792 44.8043C622.81 51.0722 625.595 56.6436 628.381 61.9828C630.934 67.3221 633.256 72.197 635.345 76.1434C637.434 80.0898 638.827 82.8755 639.756 84.5005C653.452 110.5 661.345 127.679 665.756 138.589H667.381C667.149 130.232 666.684 120.018 666.684 110.268C666.452 105.393 666.452 100.75 666.22 96.3397C665.988 91.9291 665.988 87.7505 665.988 84.2684V0.465339H693.148V169H652.059C649.506 164.589 644.631 155.072 639.292 143.929C636.506 138.589 633.72 132.786 630.702 126.982C624.899 115.143 619.327 104.233 615.613 96.3397C613.524 92.3933 612.131 89.8398 611.435 88.4469C602.845 71.9649 596.81 60.1257 592.399 50.84C587.988 41.5544 584.97 34.8223 582.881 29.2509H581.256C581.488 33.4294 581.488 38.0722 581.72 43.1793C581.953 48.2865 582.185 53.3936 582.417 58.2685C582.881 68.4828 583.113 78.4648 583.113 85.1969V169H555.953V0.465339ZM724.963 0.465339H774.177C792.748 0.465339 808.998 3.25103 821.998 9.75099C847.998 22.7509 861.694 47.59 861.694 84.0362C861.694 106.322 855.658 126.518 843.355 141.607C829.426 158.554 807.605 169 777.659 169H724.963V0.465339ZM772.552 144.625C790.891 144.625 804.819 140.214 814.569 131.393C825.48 121.411 831.051 106.322 831.051 84.7327C831.051 59.8935 824.783 43.1793 809.926 33.6616C801.105 27.858 788.802 24.8402 772.784 24.8402H754.445V144.625H772.552ZM884.224 0.465339H993.563V24.8402H913.706V71.0363H988.92V95.4112H913.706V144.393H996.813V169H884.224V0.465339ZM1058.67 81.947L1006.43 0.465339H1042.18C1044.97 6.03673 1051.93 18.3402 1059.36 30.4116C1066.56 42.7151 1073.76 55.4828 1076.77 62.215H1077.7C1080.49 55.4828 1087.92 42.4829 1095.34 30.1794C1098.83 24.1438 1102.31 18.3402 1105.79 12.7688C1109.04 7.42957 1111.36 3.25103 1112.75 0.465339H1145.49L1093.25 82.6434L1148.97 169H1113.22C1111.13 165.054 1106.95 157.393 1102.08 149.036C1097.2 140.679 1091.4 130.929 1086.52 122.34C1081.65 113.982 1077.7 106.554 1075.84 102.143H1074.92C1073.06 106.554 1069.34 113.982 1064.24 122.572C1059.13 131.161 1053.56 140.679 1048.45 149.036C1043.34 157.625 1038.93 165.054 1037.08 169H1003.18L1058.67 81.947Z"></path></svg>
+        </div>
+        <nav class="footer-nav">
+          <div class="footer-left">
+            <a href="#" class="footer-link">Submit a studio</a>
+            <a href="#" class="footer-link">Information</a>
+            <a href="#" class="footer-link">Contact</a>
+          </div>
+          <div class="footer-right">
+            <a href="#" class="footer-link">Instagram</a>
+            <a href="#" class="footer-link">Twitter</a>
+            <a href="#" class="footer-link">Linkedin</a>
+          </div>
+        </nav>
+      </footer>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
